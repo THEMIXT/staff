@@ -1,4 +1,4 @@
-# StaffPlusPlus Documentation
+# Staff++Documentation
 
 ## Introduction
 I created this repository as an attempt to add new features to StaffPlus and revitalize it.
