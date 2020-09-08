@@ -8,3 +8,5 @@ The first difference from StaffPlus is that I dropped support for the older vers
 
 An example of the config file is always present in the repository.
 https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/resources/config.yml
+
+All the properties are explained within the config file but we will list and explain the most important configuration properties here.
