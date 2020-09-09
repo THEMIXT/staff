@@ -13,8 +13,9 @@ All the properties are explained within the config file but we will list and exp
 
 ## Commands
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
+The below table shows which arguments can enhance which commands.
 
 |     | StaffMode  | Freeze  | examine  |  notes |  cps  | staffchat| report | warn  | vanish  | chat | tickets |  alerts  |  follow  | revive  | stafflist | login | register  | strip  | clearInventory  |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| TELEPORT  |   | X  |   |   |   |   |   |   |   |   |   |   | X  |   |   |   |   |   | X  |
-|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| TELEPORT  |   | X  |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   | X |
+| STRIP     |   |    | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
