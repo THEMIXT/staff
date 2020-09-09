@@ -10,3 +10,11 @@ An example of the config file is always present in the repository.
 https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/resources/config.yml
 
 All the properties are explained within the config file but we will list and explain the most important configuration properties here.
+
+## Commands
+StaffPlusPlus supports an argument system which can be used to enhance the default commands.
+
+|     | StaffMode  | Freeze  | examine  |  notes |  cps  | staffchat| report | warn  | vanish  | chat | tickets |  alerts  |  follow  | revive  | stafflist | login | register  | strip  | clearInventory  |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| TELEPORT  |   | X  |   |   |   |   |   |   |   |   |   |   | X  |   |   |   |   |   | X  |
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
