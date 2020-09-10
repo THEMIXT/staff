@@ -13,8 +13,10 @@ All the properties are explained within the config file but we will list and exp
 
 ## Commands
 
-The command for toggling staff mode:
-``staff``
+|Command|Description|Example usages|
+|---|---|---|
+|`/staff`|Turns on/off Staff mode for the current user. Only available if the user has the correct permissions.|`/staff`|
+|`/freeze`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled|`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
 
 The command for toggling freeze on players.:
 ``freeze``
