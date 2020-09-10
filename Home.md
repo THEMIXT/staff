@@ -17,12 +17,8 @@ All the properties are explained within the config file but we will list and exp
 |---|---|---|
 |`/staff`|Turns on/off Staff mode for the current user. Only available if the user has the correct permissions.|`/staff`|
 |`/freeze`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled|`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
-
-The command for toggling freeze on players.:
-``freeze``
-
-The command for examining players' inventory:
-``examine``
+|`/examine`|Opens the examine GUI. The gui can be used to check a players IP address, check his gamemode, etc|`/examine player1`|
+|`/notes`|Add/clear/list notes on different players. |`/notes get player1` `/notes clear player1` `/notes player1 This is a note`|
 
 The command for managing notes for players.:
 ``notes``
