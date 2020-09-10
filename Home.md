@@ -83,4 +83,4 @@ The below table shows which arguments can enhance which commands.
 |     | StaffMode  | Freeze  | examine  |  notes |  cps  | staffchat| report | warn  | vanish  | chat | tickets |  alerts  |  follow  | revive  | stafflist | login | register  | strip  | clearInventory  |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | TELEPORT  ||X||||||||||||X|||||X|
-| STRIP     |||X|||||||||||X||||||
+| STRIP     ||X||||||||||||X||||||
