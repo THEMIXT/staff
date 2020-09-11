@@ -24,45 +24,23 @@ All the properties are explained within the config file but we will list and exp
 |`/report`|Command to report a player. Staff can also list current reports or remove all player reports|`/report player1 For some reason`|
 |`/warn`|Command to give a player a warning. You can also list current warnings or remove all player warnings|`/warn player1 For some reason`|
 |`/vanish`|Toggle vanish on/off|`/vanish`|
-|`/`||`/`|
-|`/`||`/`|
-|`/`||`/`|
-|`/`||`/`|
-The command for chat management.:
-``chat``
-
-The command for creating and managing tickets.:
-``ticket``
-
-The command for alerts management.:
-``alerts``
-
-The command for toggling player following.:
-``follow``
-
-The command for reviving players.:
-``revive``
+|`/chat`|Manage in game chat. Disable/Enable chat completely. Clear the chat history. Enable slow chat|`/chat clear` `/chat toggle` `/chat slow`|
+|`/ticket`|This system is not working properly. Will be updated in the next releases|`Do not use`|
+|`/alerts`|Subscribe/Unsubscribe yourself to be notified when certain events happen in StaffPlusPlus. Currently following events are supported: XRAY, MENTION, NAME_CHANGE|`/alerts player1 NAME_CHANGE`|
+|`/follow`|Start following a player. This will attach you to the player and follow him where he goes|`/follow player1`|
+|`/revive`|Revive let's you restore a player's inventory after a players has died.|`/revive player1`|
+|`/personnel`||`/`|
+|`/strip`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.|`/strip player1`|
+|`/clear`|Clear the given player's inventory|`/clear player1`|
 
 The command for listing staff members.:
 ``personnel``
-
-The command for logging in.:
-``login``
-
-The command for registering a password.:
-``register``
 
 The command for stripping a player's armor.:
 ``strip``
 
 The command for clearing a players inventory:
 ``clear``
-
-The command for resetting a users password:
-``resetPassword``
-
-The command to change your own password:
-``changepassword``
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
