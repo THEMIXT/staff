@@ -38,7 +38,7 @@ StaffPlusPlus supports an argument system which can be used to enhance the defau
 We list below the arguments we currently support.
 In the commands table you can see which commands can use which arguments
 
-### -T > Teleport
+### -T Teleport
 Teleport let's use enhance a command by teleporting the target to a predefined location.
 You can setup locations in the configuration file. See **Locations**
 
@@ -47,3 +47,13 @@ Example:
 
 Description:
 Teleports player1 to the predefined location "spawn" and immediately freezes him.
+
+### -S Strip
+-S does the same as the strip command:
+Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.
+
+Example:
+`/freeze player1 -S`
+
+Description:
+Freezes the player and strips his armor.
