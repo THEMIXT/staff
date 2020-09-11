@@ -35,4 +35,15 @@ All the properties are explained within the config file but we will list and exp
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
-The below table shows which arguments can enhance which commands.
+We list below the arguments we currently support.
+In the commands table you can see which commands can use which arguments
+
+### -T > Teleport
+Teleport let's use enhance a command by teleporting the target to a predefined location.
+You can setup locations in the configuration file. See **Locations**
+
+Example:
+`/freeze player1 -Tspawn`
+
+Description:
+Teleports player1 to the predefined location "spawn" and immediately freezes him.
