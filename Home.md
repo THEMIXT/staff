@@ -29,18 +29,9 @@ All the properties are explained within the config file but we will list and exp
 |`/alerts`|Subscribe/Unsubscribe yourself to be notified when certain events happen in StaffPlusPlus. Currently following events are supported: XRAY, MENTION, NAME_CHANGE|`/alerts player1 NAME_CHANGE`|
 |`/follow`|Start following a player. This will attach you to the player and follow him where he goes|`/follow player1`|
 |`/revive`|Revive let's you restore a player's inventory after a players has died.|`/revive player1`|
-|`/personnel`||`/`|
+|`/personnel`|Lists online staff members|`/personnel`|
 |`/strip`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.|`/strip player1`|
 |`/clear`|Clear the given player's inventory|`/clear player1`|
-
-The command for listing staff members.:
-``personnel``
-
-The command for stripping a player's armor.:
-``strip``
-
-The command for clearing a players inventory:
-``clear``
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
