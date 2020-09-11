@@ -39,7 +39,7 @@ We list below the arguments we currently support.
 In the commands table you can see which commands can use which arguments
 
 ### -T Teleport
-Teleport let's use enhance a command by teleporting the target to a predefined location.
+Teleport let's us enhance a command by teleporting the target to a predefined location.
 You can setup locations in the configuration file. See **Locations**
 
 Example:
