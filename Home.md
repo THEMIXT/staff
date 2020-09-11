@@ -24,7 +24,10 @@ All the properties are explained within the config file but we will list and exp
 |`/report`|Command to report a player. Staff can also list current reports or remove all player reports|`/report player1 For some reason`|
 |`/warn`|Command to give a player a warning. You can also list current warnings or remove all player warnings|`/warn player1 For some reason`|
 |`/vanish`|Toggle vanish on/off|`/vanish`|
-
+|`/`||`/`|
+|`/`||`/`|
+|`/`||`/`|
+|`/`||`/`|
 The command for chat management.:
 ``chat``
 
