@@ -19,7 +19,7 @@ All the properties are explained within the config file but we will list and exp
 |`/freeze`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled||`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
 |`/examine`|Opens the examine GUI. The gui can be used to check a players IP address, check his gamemode, etc||`/examine player1`|
 |`/notes`|Add/clear/list notes on different players.||`/notes get player1` `/notes clear player1` `/notes player1 This is a note`|
-|`/cps`|Run a clicks per second test on a player|`/cps player1`|
+|`/cps`|Run a clicks per second test on a player||`/cps player1`|
 |`/sc`|Enables/disables staffchat. All messages send in staff chat mode will only be readable by other staff members||`/sc`|
 |`/report`|Command to report a player. Staff can also list current reports or remove all player reports||`/report player1 For some reason`|
 |`/warn`|Command to give a player a warning. You can also list current warnings or remove all player warnings||`/warn player1 For some reason`|
