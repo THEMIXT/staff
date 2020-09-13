@@ -1,12 +1,12 @@
-StaffPlus Migration
+# StaffPlus Migration
 
-Steps:
+## Steps:
 
-Download your staffplusplus version from Spigot: https://www.spigotmc.org/resources/staff.83562/history
+- Download your staffplusplus version from Spigot: https://www.spigotmc.org/resources/staff.83562/history
 
-Replace the Old Staff+.jar with the new Staff++ jar.
+- Replace the Old Staff+.jar with the new Staff++ jar.
 
-In the config file change storage type from `flatfile` to 'sqlite' or `mysql`:
+- In the config file change storage type from `flatfile` to 'sqlite' or `mysql`:
 
 ```
 storage:
