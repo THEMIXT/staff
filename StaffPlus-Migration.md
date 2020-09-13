@@ -14,7 +14,9 @@ storage:
   type: 'sqlite'
 ```
 
-StaffPlusPlus dropped support for flatfile storage. We know support MySql or Sqlite.
-We do not yet support a migration from flatfile to sql database. This means you will lose your previous reports/warning should you have them.
+StaffPlusPlus dropped support for flatfile storage. We now support MySql or Sqlite.
+We do not yet support a migration from flatfile to the sql database. This means you will lose your previous reports/warning should you have them.
 This is a one time loss and everything from this point out will always be gracefully migrated.
 
+Everything else of the configuration should be fine.
+Start up the server and see if everything runs.
