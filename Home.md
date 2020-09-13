@@ -16,7 +16,7 @@ All the properties are explained within the config file but we will list and exp
 |Command|Description|Available Arguments|Example usages|
 |---|---|---|---|
 |`/staff`|Turns on/off Staff mode for the current user. Only available if the user has the correct permissions.||`/staff`|
-|`/freeze`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled|`-T` `-S`|`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
+|`/freeze`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled|`-T` `-S` `-H`|`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
 |`/examine`|Opens the examine GUI. The gui can be used to check a players IP address, check his gamemode, etc||`/examine player1`|
 |`/notes`|Add/clear/list notes on different players.||`/notes get player1` `/notes clear player1` `/notes player1 This is a note`|
 |`/cps`|Run a clicks per second test on a player||`/cps player1`|
@@ -28,10 +28,10 @@ All the properties are explained within the config file but we will list and exp
 |`/ticket`|This system is not working properly. Will be updated in the next releases||`Do not use`|
 |`/alerts`|Subscribe/Unsubscribe yourself to be notified when certain events happen in StaffPlusPlus. Currently following events are supported: XRAY, MENTION, NAME_CHANGE||`/alerts player1 NAME_CHANGE`|
 |`/follow`|Start following a player. This will attach you to the player and follow him where he goes||`/follow player1`|
-|`/revive`|Revive let's you restore a player's inventory after a players has died.|`-T` `-S`|`/revive player1`|
+|`/revive`|Revive let's you restore a player's inventory after a players has died.|`-T` `-S` `-H`|`/revive player1`|
 |`/personnel`|Lists online staff members||`/personnel`|
 |`/strip`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.||`/strip player1`|
-|`/clear`|Clear the given player's inventory|`-T`|`/clear player1`|
+|`/clear`|Clear the given player's inventory|`-T` `-H`|`/clear player1`|
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
@@ -57,3 +57,12 @@ Example:
 
 Description:
 Freezes the player and strips his armor.
+
+### -H Health
+Sets the player's health to the given percentage.
+
+Example:
+`/freeze player1 -H100`
+
+Description:
+Freezes the player and gives the player full health.
