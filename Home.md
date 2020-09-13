@@ -21,7 +21,9 @@ All the properties are explained within the config file but we will list and exp
 |`/notes`|Add/clear/list notes on different players.||`/notes get player1` `/notes clear player1` `/notes player1 This is a note`|
 |`/cps`|Run a clicks per second test on a player||`/cps player1`|
 |`/sc`|Enables/disables staffchat. All messages send in staff chat mode will only be readable by other staff members||`/sc`|
-|`/report`|Command to report a player. Staff can also list current reports or remove all player reports||`/report player1 For some reason`|
+|`/reports`|Command used by staff to manage reports: list current reports or remove all player reports||`/reports get player1`|
+|`/report`|Command to report something. Used when the player wants to report something but doesn't know who was the culprit or there was no culprit||`/report Some reason`|
+|`/reportPlayer`|Command for players to report another player||`/reportPlayer player1 For some reason`|
 |`/warn`|Command to give a player a warning. You can also list current warnings or remove all player warnings||`/warn player1 For some reason`|
 |`/vanish`|Toggle vanish on/off||`/vanish`|
 |`/chat`|Manage in game chat. Disable/Enable chat completely. Clear the chat history. Enable slow chat||`/chat clear` `/chat toggle` `/chat slow`|
