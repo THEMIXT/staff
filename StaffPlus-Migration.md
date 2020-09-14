@@ -1,6 +1,7 @@
 # StaffPlus Migration
 
 ## Steps:
+- Start by backing up your old StaffPlus folder.
 
 - Download your staffplusplus version from Spigot: https://www.spigotmc.org/resources/staff.83562/history
 
