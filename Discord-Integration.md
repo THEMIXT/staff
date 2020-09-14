@@ -7,10 +7,10 @@ To Enable integration you need to install a separate **plugin:**
 
 Supported Staff++ version:
 
-* >= 1.13.6
-* >= 1.14.6
-* >= 1.15.7
-* >= 1.16.12
+* \>= 1.13.6
+* \>= 1.14.6
+* \>= 1.15.7
+* \>= 1.16.12
 
 ## Configuration
 The configuration of the discord integration plugin is fairly simple.
