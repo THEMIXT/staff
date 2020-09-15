@@ -38,6 +38,7 @@ _**Every time you update Staff++, you should check the default config file and c
 |`/personnel`|Lists online staff members||`/personnel`|
 |`/strip`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.||`/strip player1`|
 |`/clear`|Clear the given player's inventory|`-T` `-H`|`/clear player1`|
+|`/teleport`|Teleports a player to a given location. Location should be configured inside the configuration file||`/teleport player1 spawn`|
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
