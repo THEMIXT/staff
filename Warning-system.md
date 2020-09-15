@@ -20,8 +20,8 @@ severity-levels:
     score: 3
   - name: CRITICAL
     score: 5
-# Define tresholds for the warning system. Whenever the player reaches a treshold the actions are triggered
-tresholds:
+# Define thresholds for the warning system. Whenever the player reaches a threshold the actions are triggered
+thresholds:
   - score: 6
     actions:
       - command: "ban %player% &4Met three warnings. Appeal @ &7www.shithcf.net&4."
@@ -56,8 +56,8 @@ warnings-module:
       score: 3
     - name: CRITICAL
       score: 5
-  # Define tresholds for the warning system. Whenever the player reaches a treshold the actions are triggered
-  tresholds:
+  # Define thresholds for the warning system. Whenever the player reaches a threshold the actions are triggered
+  thresholds:
     - score: 6
       actions:
         - command: "ban %player% &4Met three warnings. Appeal @ &7www.shithcf.net&4."
