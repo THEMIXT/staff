@@ -75,4 +75,36 @@ That's it, try starting up the server and see if everything runs as expected.
     Should you still encounter problems please do compare your configuration file with the example config file
 
 
-Severity Levels and Thresholds
+## Severity Levels and Thresholds
+
+In the configuration file we defined severity levels. These can be as many as you want but it's preferably to have at least one.
+We define a `name` and `score`. The score determines how serious an offence the player has committed. An example configuration could be:
+
+```
+severity-levels:
+  - name: STEALING
+    score: 1
+  - name: GRIEFING
+    score: 3
+  - name: BULLYING
+    score: 6
+```
+As you can see in the above config, griefing is a more serious offence than stealing. And bullying is the most serious offence. 
+Once the levels are defined we can define thresholds.
+
+Thresholds can be reached by players if they receive too many warnings. An example configuration:
+```
+thresholds:
+  - score: 3
+    actions:
+      - command: "tempban %player% 4 days"
+        run-strategy: DELAY
+  - score: 6
+    actions:
+      - command: "ban %player%"
+        run-strategy: ALWAYS
+```
+
+We defined two thresholds. When the player reaches the first threshold of a total warning score of 3 he will be temporarily banned.
+Keep in mind that his total score wont be reset. Which means that if he gets another warning for stealing for example, his total score will be 4 and he will immediately get temporarily banned again. So once you reach a threshold you will be punished more severely on subsequent warnings.
+
