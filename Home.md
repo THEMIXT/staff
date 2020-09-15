@@ -28,7 +28,8 @@ _**Every time you update Staff++, you should check the default config file and c
 |`/reports`|Command used by staff to manage reports: list current reports or remove all player reports||`/reports get player1`|
 |`/report`|Command to report something. Used when the player wants to report something but doesn't know who was the culprit or there was no culprit||`/report Some reason`|
 |`/reportPlayer`|Command for players to report another player||`/reportPlayer player1 For some reason`|
-|`/warn`|Command to give a player a warning. You can also list current warnings or remove all player warnings||`/warn player1 For some reason`|
+|`/warn`|Command to give a player a warning. Severity should be configured inside the configuration file and provided as first argument to the warn command||`/warn MAJOR player1 For some reason`|
+|`/warns`|Command to manage warnings. You can list current warnings or remove all player warnings||`/warns clear player1` `/warns get player1`|
 |`/vanish`|Toggle vanish on/off||`/vanish`|
 |`/chat`|Manage in game chat. Disable/Enable chat completely. Clear the chat history. Enable slow chat||`/chat clear` `/chat toggle` `/chat slow`|
 |`/ticket`|This system is not working properly. Will be updated in the next releases||`Do not use`|
