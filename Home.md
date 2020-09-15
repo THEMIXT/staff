@@ -13,6 +13,8 @@ https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/
 
 All the properties are explained within the config file but we will list and explain the most important configuration properties here.
 
+_**Every time you update Staff++, you should check the default config file and compare it to your config file.**_
+
 ## Commands
 
 |Command|Description|Available Arguments|Example usages|
