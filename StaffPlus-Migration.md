@@ -19,5 +19,12 @@ StaffPlusPlus dropped support for flatfile storage. We now support MySql or Sqli
 We do not yet support a migration from flatfile to the sql database. This means you will lose your previous reports/warning should you have them.
 This is a one time loss and everything from this point out will always be gracefully migrated.
 
-Everything else of the configuration should be fine.
+- Add following properties underneath the commands section:
+```
+teleport: "teleport"
+reports: "reports"
+reportPlayer: "reportPlayer"
+warns: "warns"
+```
+
 Start up the server and see if everything runs.
