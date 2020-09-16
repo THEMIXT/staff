@@ -108,3 +108,11 @@ thresholds:
 We defined two thresholds. When the player reaches the first threshold of a total warning score of 3 he will be temporarily banned.
 Keep in mind that his total score wont be reset. Which means that if he gets another warning for stealing for example, his total score will be 4 and he will immediately get temporarily banned again. So once you reach a threshold you will be punished more severely on subsequent warnings.
 
+## Run strategy
+As you can see in the above configuration, we can define a run strategy for each command. This is useful when we want to only execute the command in a certain situation.
+
+Possible strategies:
+- `ALWAYS` Run the command regardless if the player is on- or offline. This will always try to run the command immediatly
+- `ONLINE` Run the command only if the player is online. Should the player be offline when the threshold is reached the configured command wont be executed.
+- `DELAY` Run the command immediately if the player is online. If the player is offline, delay the command until his next login.
+
