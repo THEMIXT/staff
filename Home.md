@@ -84,4 +84,4 @@ Example:
 `/clear player1 -D`
 
 Description:
-Freezes the player and gives the player full health.
+Clear the players inventory the next time he joins the server
