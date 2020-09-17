@@ -108,6 +108,8 @@ thresholds:
 We defined two thresholds. When the player reaches the first threshold of a total warning score of 3 he will be temporarily banned.
 Keep in mind that his total score wont be reset. Which means that if he gets another warning for stealing for example, his total score will be 4 and he will immediately get temporarily banned again. So once you reach a threshold you will be punished more severely on subsequent warnings.
 
+The second threshold bans a player when he reaches a total score of 6. This also means that a warning for bullying in this example will immediately ban the player.
+
 ## Run strategy
 As you can see in the above configuration, we can define a run strategy for each command. This is useful when we want to only execute the command in a certain situation.
 
