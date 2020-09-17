@@ -114,5 +114,5 @@ As you can see in the above configuration, we can define a run strategy for each
 Possible strategies:
 - `ALWAYS` Run the command regardless if the player is on- or offline. This will always try to run the command immediatly
 - `ONLINE` Run the command only if the player is online. Should the player be offline when the threshold is reached the configured command wont be executed.
-- `DELAY` Run the command immediately if the player is online. If the player is offline, delay the command until his next login.
+- `DELAY` If the player is online, run the command immediately. If the player is offline, delay the command until his next login.
 
