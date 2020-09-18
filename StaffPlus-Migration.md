@@ -23,6 +23,6 @@ This is a one time loss and everything from this point out will always be gracef
 
 - Start up the server and see if everything runs.
 
-```
+
 Should you still encounter errors, compare your config with the [default configuration file](https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/resources/config.yml).
-```
+
