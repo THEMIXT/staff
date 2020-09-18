@@ -1,6 +1,6 @@
 # Permission of the StaffPlusPlus plugin
 
-_All permission node can be custom configured inside the config.yml file_
+_All permission nodeS can be custom configured inside the config.yml file_
 
 
 | name | default permission node | Description |
