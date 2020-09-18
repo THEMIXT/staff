@@ -16,7 +16,7 @@ storage:
 ```
 
 StaffPlusPlus dropped support for flatfile storage. We now support MySql or Sqlite.
-We do not yet support a migration from flatfile to the sql database. This means you will lose your previous reports/warning should you have them.
+We do not yet support a migration from flatfile to the sql database. **This means you will lose your previous reports/warning should you have them.**
 This is a one time loss and everything from this point out will always be gracefully migrated.
 
 - All other properties should be migrated automatically if you are using the latest version of Staff++.
