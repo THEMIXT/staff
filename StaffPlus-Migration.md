@@ -19,12 +19,10 @@ StaffPlusPlus dropped support for flatfile storage. We now support MySql or Sqli
 We do not yet support a migration from flatfile to the sql database. This means you will lose your previous reports/warning should you have them.
 This is a one time loss and everything from this point out will always be gracefully migrated.
 
-- Add following properties underneath the commands section:
-```
-teleport: "teleport"
-reports: "reports"
-reportPlayer: "reportPlayer"
-warns: "warns"
-```
+- All other properties should be migrated automatically if you are using the latest version of Staff++.
 
-Start up the server and see if everything runs.
+- Start up the server and see if everything runs.
+
+```
+Should you still encounter errors, compare your config with the [default configuration file](https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/resources/config.yml).
+```
