@@ -41,3 +41,6 @@ StaffPlusPlusDiscord:
 
 Make sure you create a webhook on your discord server. This can be done by following this guide: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 Once you created the webhook paste it inside the configuration file.
+
+
+Example of a report:
