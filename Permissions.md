@@ -4,7 +4,7 @@ _All permission nodeS can be custom configured inside the config.yml file_
 
 
 | name | default permission node | Description |
-|---|--|---|
+|---|---|---|
 | wild-card | staff.* | Use this to give a player all Staff+ permissions.  Take note that this will NOT give the player the "block" permission. This also gives the player permission to toggle other player's vanish, staff mode, and etc. |
 | block | staff.block | Permission for blocking listed commands at "blocked-commands" and "blocked-mode-commands". |
 | report | staff.report | Permission for clearing/getting player reports. |
@@ -38,9 +38,8 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | lockdown | staff.lockdown | Permission for locking/unlocking the server. |
 | revive | staff.revive | Permission for giving a player's previous inventory back. |
 | member | staff.member | Permission for being noted as a staff member in the staff list command and for login. This also excludes the player from being randomly teleported to! |
-| strip | staff.strip | Permission for using  / strip . |
-| tp | staff.tp | Permission for use /tp |
-| staffplus | staff.staffplus | Permission for using /staffplus |
+| strip | staff.strip | Permission for using  `/strip` . |
+| staffplus | staff.staffplus | Permission for using `/staffplus` |
 | ipPerm | staff.staffplus.hideip | Use this for players who's ip should not be shown in examine mode |
 | invClear | staff.staffplus.clearinv | Permission for using the clear inventory config |
 | resetPass | staff.staffplus.resetpassword | Permission for using the /resetPassword command |
