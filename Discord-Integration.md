@@ -44,3 +44,4 @@ Once you created the webhook paste it inside the configuration file.
 
 
 Example of a report:
+[[/images/warn.png|Warning Example]]
