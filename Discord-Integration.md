@@ -7,6 +7,7 @@ To Enable integration you need to install a separate **plugin:**
 
 Supported Staff++ version:
 
+* \>= 1.12.1
 * \>= 1.13.6
 * \>= 1.14.6
 * \>= 1.15.7
