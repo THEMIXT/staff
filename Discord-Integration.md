@@ -43,5 +43,8 @@ Make sure you create a webhook on your discord server. This can be done by follo
 Once you created the webhook paste it inside the configuration file.
 
 
-Example of a report:
+### Examples:
+#### Report
+[[/images/report.png|Report Example]]
+#### Warning
 [[/images/warn.png|Warning Example]]
