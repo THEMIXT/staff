@@ -29,6 +29,14 @@ StaffPlusPlusDiscord:
   notifyReject: true
   # Trigger a discord message when a staff member resolves a report
   notifyResolve: true
+
+
+  # Warnings section
+  warnings:
+    webhookUrl: ""
+    notifyCleared: true
+    notifyCreate: true
+    notifyThresholdReached: true
 ```
 
 Make sure you create a webhook on your discord server. This can be done by following this guide: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
