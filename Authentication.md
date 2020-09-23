@@ -3,7 +3,7 @@
 Staff++ does not have an internal authentication system.
 
 The main reason for this decision is that there are other better plugins out there to support authentication.
-We cover the following scenarios:
+We do however cover the following scenarios:
 
 ## Online server mode + permissions. 
 In this case the official Minecraft authentication system is used. This system in combination with the correct permission setup allows for a secure authentication mechanism.
