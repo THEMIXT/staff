@@ -1,4 +1,4 @@
-#Authentication
+# Authentication
 
 Staff++ does not have an internal authentication system.
 
