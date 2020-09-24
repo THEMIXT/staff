@@ -73,7 +73,7 @@ Example:
 Description:
 Freezes the player and gives the player full health.
 
-### -D Delay command
+### -D Delay a command
 When provided with a base command. The command will be delayed until the player joins the server.
 This is useful when we want to for example clear the inventory of a player, but he's offline. With the -D argument we can still run the 'clear' command.
 It will not be executed immediately, but it will be executed the next time the player joins the server. 
