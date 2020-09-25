@@ -38,7 +38,7 @@ reports-module:
 ## Report lifecycle
 
 ### OPEN
-When a report first gets created is get the stats `OPEN`, open reports can be picked up by any staff member with the correct permission.
+When a report first gets created is get the status `OPEN`, open reports can be picked up by any staff member with the correct permission.
 
 ### IN_PROGRESS
 After a staff member picks up a report it gets placed into the status `IN_PROGRESS`. When one member of staff picks up a report no other member can handle this report.
