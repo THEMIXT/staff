@@ -4,7 +4,7 @@
 This plugin was originally developed By ShortNinja. After ShortNinja's passing QBall took over the support and further development.
 
 I created this repository as an attempt to add new features to StaffPlus and revitalize it.
-The first difference from StaffPlus is that I dropped support for the older versions, this will hopefully allow me to add new features to the newer version easily and help in bug fixing more targeted. If you are using older version of minecraft please refer to QBall [repository](https://github.com/Qballl/StaffPlus)
+The first difference from StaffPlus is that I dropped support for the older versions, this will hopefully allow me to add new features to the newer version easily and help in bug fixing more targeted. If you are using older version of Minecraft please refer to QBall's [repository](https://github.com/Qballl/StaffPlus)
 
 I changed some of the core features:
 
