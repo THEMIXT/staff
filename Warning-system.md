@@ -11,7 +11,7 @@ Remove the following properties from the `warnings-module`:
 
 The old system is no longer supported so the above properties can be removed.
 
-Underneath the warning modules add the following:
+Underneath the warning module add the following:
 ```
 severity-levels:
   - name: MINOR
