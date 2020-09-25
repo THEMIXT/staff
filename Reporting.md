@@ -24,6 +24,9 @@ reports-module:
 
   # Whether or not the player that reported another player will be visible in GUIs.
   show-reporter: true
+
+  # Whether or not a staff member must provide a reason when resolving/rejecting a report
+  closing-reason-enabled: true
 ```
 
 ## Report commands
