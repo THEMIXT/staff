@@ -1,6 +1,6 @@
 # Introduction
 Staff++ created a new way of warning players.
-This system is available since versions: 1.13.7, 1.14.7, 1.15.8, 1.16.13
+This system is available since versions: 1.12.1, 1.13.7, 1.14.7, 1.15.8, 1.16.13
 
 ## Configuration changes when upgrading to the new system
 [Example configuration file](https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/resources/config.yml)
