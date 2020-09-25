@@ -1,3 +1,5 @@
+### [Home](https://github.com/garagepoort/StaffPlusPlus/wiki/Home)
+
 ### General
 
 * [Commands](https://github.com/garagepoort/StaffPlusPlus/wiki/Commands)
