@@ -2,6 +2,7 @@
 
 * [Commands](https://github.com/garagepoort/StaffPlusPlus/wiki/Commands)
 * [Permissions](https://github.com/garagepoort/StaffPlusPlus/wiki/Permissions)
+* [StaffPlus Migration Guide](https://github.com/garagepoort/StaffPlusPlus/wiki/StaffPlus-Migration)
 
 ### Features
 
@@ -9,4 +10,3 @@
 * [Reporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Reporting)
 * [Warnings](https://github.com/garagepoort/StaffPlusPlus/wiki/Warning-system)
 * [Discord Integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration)
-* [StaffPlus Migration Guide](https://github.com/garagepoort/StaffPlusPlus/wiki/StaffPlus-Migration)
