@@ -31,9 +31,9 @@ reports-module:
 
 ## Report commands
 
-`/reports` Used to manage reports. You can list or clear all the reports of a player
-`/reportplayer [playerName] [message]` Report a specific player.
-`/report [message]` Report something but don't link a specific player to it.
+* `/reports` Used to manage reports. You can list or clear all the reports of a player
+* `/reportplayer [playerName] [message]` Report a specific player.
+* `/report [message]` Report something but don't link a specific player to it.
 
 ## Report lifecycle
 
