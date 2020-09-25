@@ -1,4 +1,4 @@
-# Permission of the StaffPlusPlus plugin
+## Overview
 
 _All permission nodeS can be custom configured inside the config.yml file_
 
