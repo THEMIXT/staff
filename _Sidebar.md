@@ -9,8 +9,8 @@
 ### Features
 
 * [Authentication](https://github.com/garagepoort/StaffPlusPlus/wiki/Authentication)
-* [Reporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Reporting)
-* [Warnings](https://github.com/garagepoort/StaffPlusPlus/wiki/Warning-system)
-* [Discord Integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration)
-* [Teleport location](https://github.com/garagepoort/StaffPlusPlus/wiki/Teleport-location)
 * [Broadcasting](https://github.com/garagepoort/StaffPlusPlus/wiki/Broadcasting)
+* [Discord Integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration)
+* [Reporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Reporting)
+* [Teleport location](https://github.com/garagepoort/StaffPlusPlus/wiki/Teleport-location)
+* [Warnings](https://github.com/garagepoort/StaffPlusPlus/wiki/Warning-system)
