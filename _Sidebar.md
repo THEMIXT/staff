@@ -13,3 +13,4 @@
 * [Warnings](https://github.com/garagepoort/StaffPlusPlus/wiki/Warning-system)
 * [Discord Integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration)
 * [Teleport location](https://github.com/garagepoort/StaffPlusPlus/wiki/Teleport-location)
+* [Broadcasting](https://github.com/garagepoort/StaffPlusPlus/wiki/Broadcasting)
