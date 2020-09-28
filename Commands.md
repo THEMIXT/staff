@@ -3,26 +3,26 @@
 |Command|Description|Available Arguments|Example usages|
 |---|---|---|---|
 |`/staff`|Turns on/off Staff mode for the current user. Only available if the user has the correct permissions.||`/staff`|
-|`/freeze`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled|`-T` `-S` `-H` `-D`|`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
+|`/freeze [player]`|Freezes/unfreezes a player. Either you specify enabled/disabled or you just freeze and freezemode will be toggled|`-T` `-S` `-H` `-D`|`/freeze player1` `/freeze enabled player1` `/freeze player1 -Tspawn -S`|
 |`/examine`|Opens the examine GUI. The gui can be used to check a players IP address, check his gamemode, etc||`/examine player1`|
 |`/notes`|Add/clear/list notes on different players.||`/notes get player1` `/notes clear player1` `/notes player1 This is a note`|
 |`/cps`|Run a clicks per second test on a player||`/cps player1`|
-|`/sc`|Enables/disables staffchat. All messages send in staff chat mode will only be readable by other staff members||`/sc`|
+|`/sc [message?]`|Enables/disables staffchat. All messages send in staff chat mode will only be readable by other staff members||`/sc`|
 |`/reports`|Command used by staff to manage reports: list current reports or remove all player reports||`/reports get player1`|
-|`/report`|Command to report something. Used when the player wants to report something but doesn't know who was the culprit or there was no culprit||`/report Some reason`|
-|`/reportPlayer`|Command for players to report another player||`/reportPlayer player1 For some reason`|
-|`/warn`|Command to give a player a warning. Severity should be configured inside the configuration file and provided as first argument to the warn command||`/warn MAJOR player1 For some reason`|
-|`/warns`|Command to manage warnings. You can list current warnings or remove all player warnings||`/warns clear player1` `/warns get player1`|
+|`/report [message]`|Command to report something. Used when the player wants to report something but doesn't know who was the culprit or there was no culprit||`/report Some reason`|
+|`/reportPlayer [player] [message]`|Command for players to report another player||`/reportPlayer player1 For some reason`|
+|`/warn [severity] [player] [reason]`|Command to give a player a warning. Severity should be configured inside the configuration file and provided as first argument to the warn command||`/warn MAJOR player1 For some reason`|
+|`/warns [get|clear] [player]`|Command to manage warnings. You can list current warnings or remove all player warnings||`/warns clear player1` `/warns get player1`|
 |`/vanish`|Toggle vanish on/off||`/vanish`|
 |`/chat`|Manage in game chat. Disable/Enable chat completely. Clear the chat history. Enable slow chat||`/chat clear` `/chat toggle` `/chat slow`|
-|`/ticket`|This system is not working properly. Will be updated in the next releases||`Do not use`|
 |`/alerts`|Subscribe/Unsubscribe yourself to be notified when certain events happen in StaffPlusPlus. Currently following events are supported: XRAY, MENTION, NAME_CHANGE||`/alerts player1 NAME_CHANGE`|
-|`/follow`|Start following a player. This will attach you to the player and follow him where he goes||`/follow player1`|
-|`/revive`|Revive let's you restore a player's inventory after a players has died.|`-T` `-S` `-H`|`/revive player1`|
+|`/follow [player]`|Start following a player. This will attach you to the player and follow him where he goes||`/follow player1`|
+|`/revive [player]`|Revive let's you restore a player's inventory after a players has died.|`-T` `-S` `-H`|`/revive player1`|
 |`/personnel`|Lists online staff members||`/personnel`|
-|`/strip`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.||`/strip player1`|
-|`/clear`|Clear the given player's inventory|`-T` `-H` `-D`|`/clear player1`|
-|`/teleport`|Teleports a player to a given location. Location should be configured inside the configuration file|`-D`|`/teleport player1 spawn`|
+|`/strip [player]`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.||`/strip player1`|
+|`/clear [player]`|Clear the given player's inventory|`-T` `-H` `-D`|`/clear player1`|
+|`/teleport [player] [location]`|Teleports a player to a given location. Location should be configured inside the configuration file|`-D`|`/teleport player1 spawn`|
+|`/broadcast [server] [message]`|Send a message to all players on all servers. Display's the message using a "broadcast" prefix.||`/broadcast ALL This is my message`|
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
