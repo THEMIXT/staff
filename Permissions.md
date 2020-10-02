@@ -43,4 +43,4 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | ipPerm | staff.staffplus.hideip | Use this for players who's ip should not be shown in examine mode |
 | invClear | staff.staffplus.clearinv | Permission for using the clear inventory config |
 | resetPass | staff.staffplus.resetpassword | Permission for using the /resetPassword command |
-| broadcasr | staff.staffplus.broadcast | Permission for sending broadcast messages |
+| broadcast | staff.staffplus.broadcast | Permission for sending broadcast messages |
