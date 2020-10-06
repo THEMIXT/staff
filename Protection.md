@@ -41,12 +41,13 @@ To delete a protected `/protectarea delete My new area`.
 - name: My new area
 
 In addition to the command line tool. The is also an overview of protected areas when in staff mode.
-This can be accessed through the GUI HUB:
+
+### This can be accessed through the GUI HUB:
 [[/images/protect_hub.png|Protected area hub screen]]
 
-All areas are displayed here:
+### All areas are displayed here:
 [[/images/protect_overview.png|Protected area overview screen]]
 
-When clicking on an item we can delete(red) the protected area or teleport(orange) to it.
+### When clicking on an item we can delete(red) the protected area or teleport(orange) to it.
 [[/images/protect_manage.png|Protected area manage screen]]
 
