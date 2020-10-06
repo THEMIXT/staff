@@ -51,3 +51,8 @@ Add your Board ID to the config file.
 ### The lists
 Lastly map the Staff++ statuses to the correct Lists on your Trello board. The match is done based on the List name and it must be an exact match.
 If the plugin can't find any of the configured lists on the board, an error message will be thrown at startup of the plugin
+
+
+## Example:
+
+[[/images/trello_integration.gif|Trello Integration Gif]]
