@@ -40,7 +40,7 @@ To delete a protected `/protectarea delete My new area`.
 - action: delete
 - name: My new area
 
-In addition to the command line tool. The is also an overview of protected areas when in staff mode.
+In addition to the command line tool. There is also an overview of protected areas when in staff mode.
 
 ### This can be accessed through the GUI HUB:
 [[/images/protect_hub.png|Protected area hub screen]]
