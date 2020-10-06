@@ -23,6 +23,8 @@
 |`/clear [player]`|Clear the given player's inventory|`-T` `-H` `-D`|`/clear player1`|
 |`/teleport [player] [location]`|Teleports a player to a given location. Location should be configured inside the configuration file|`-D`|`/teleport player1 spawn`|
 |`/broadcast [server] [message]`|Send a message to all players on all servers. Display's the message using a "broadcast" prefix.||`/broadcast ALL This is my message`|
+|`/protectplayer [playername]`|Toggles damage protection on/off for the player||`/protectplayer player1`|
+|`/protectarea [create|delete] [size?] [name]`|Toggles damage protection on/off for the player||`/protectarea create 30 My new protected area` `/protectarea delete My new protected area`|
 
 ## Arguments
 StaffPlusPlus supports an argument system which can be used to enhance the default commands.
