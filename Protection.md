@@ -21,7 +21,7 @@ protect-module:
   area-max-size: 40
 ```
 
-## Protection a player
+## Protecting a player
 This is pretty simple. `/protectplayer playername` toggles protection for a player, when protected the player takes no damage at all.
 Protection wears off after the players logs out or if the staff members turns it off.
 
