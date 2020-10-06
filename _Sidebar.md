@@ -11,7 +11,7 @@
 * [Authentication](https://github.com/garagepoort/StaffPlusPlus/wiki/Authentication)
 * [Broadcasting](https://github.com/garagepoort/StaffPlusPlus/wiki/Broadcasting)
 * [Discord Integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration)
+* [Protection](https://github.com/garagepoort/StaffPlusPlus/wiki/Protection)
 * [Reporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Reporting)
 * [Teleport location](https://github.com/garagepoort/StaffPlusPlus/wiki/Teleport-location)
 * [Warnings](https://github.com/garagepoort/StaffPlusPlus/wiki/Warning-system)
-* [Protection](https://github.com/garagepoort/StaffPlusPlus/wiki/Protection)
