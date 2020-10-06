@@ -44,3 +44,5 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | invClear | staff.staffplus.clearinv | Permission for using the clear inventory config |
 | resetPass | staff.staffplus.resetpassword | Permission for using the /resetPassword command |
 | broadcast | staff.staffplus.broadcast | Permission for sending broadcast messages |
+| protect-player | staff.staffplus.protect-player | Permission for toggling damage protection over a player |
+| protect-area | staff.staffplus.protect-area | Permission for toggling protection over a certain area |
