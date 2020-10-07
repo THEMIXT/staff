@@ -3,6 +3,8 @@
 Staff++supports Trello integration. Whenever reports are created, or they change status it can by synchronized with Trello.
 However this a one way synchronization, if you change the cards created by Staff++ in Trello it will not be updated in game.
 
+Install the Staff++ Trello Integration plugin: https://www.spigotmc.org/resources/staff-trello-integration.84552/
+
 ## Configuration
 ```
 StaffPlusPlusTrello:
