@@ -16,7 +16,7 @@ StaffPlusPlusTrello:
         # The id of your board, can be found in the url
         boardId: ""
 
-        # The list name in which the cards should be place when moved to this status
+        # The list names in which the cards should be placed when moved to this status
         openListName: "open"
         rejectedListName: "rejected"
         acceptedListName: "accepted"
