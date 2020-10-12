@@ -25,7 +25,7 @@
 |`/broadcast [server] [message]`|Send a message to all players on all servers. Display's the message using a "broadcast" prefix.||`/broadcast ALL This is my message`|
 |`/protectplayer [playername]`|Toggles damage protection on/off for the player||`/protectplayer player1`|
 |`/protectarea [create\|delete] [size?] [name]`|Create or deletes a protected area. More info on the protection documentation page||`/protectarea create 30 My new protected area` `/protectarea delete My new protected area`|
-|`/altwhitelist [add|remove] [playername1] [playername1]`|Add remove players from the alt account detection whitelist||`/altwhitelist add player1 player2` `/altwhitelist remove player1 player2`|
+|`/altwhitelist [add\|remove] [playername1] [playername1]`|Add remove players from the alt account detection whitelist||`/altwhitelist add player1 player2` `/altwhitelist remove player1 player2`|
 |`/altwhitelist [list] [page?]`|List all whitelisted items from alt account detection whitelist.||`/altwhitelist list` `/altwhitelist list 3`|
 
 ## Arguments
