@@ -32,6 +32,9 @@ alerts-module:
 ```
 
 Enable all the alerts you want to be able to have your staff members receive.
+
+
+## Subscribing to alerts
 A staff member can subscribe to or unsubscribe from these events manually using the `/alerts [type]` command.
 
 Keep in mind a staff member can only receive an alert if he has the correct permission to receive the alert.
@@ -48,3 +51,10 @@ Keep in mind a staff member can only receive an alert if he has the correct perm
   # Permission for receiving alt detect alerts.
   alerts-alt-detect: "staff.alerts.alt-detects"
 ```
+
+### Example
+(Un)Subscribe yourself to alt account detection alerts
+```
+/alerts ALT_DETECT
+```
+
