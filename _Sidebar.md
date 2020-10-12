@@ -10,6 +10,7 @@
 
 * [Alt Accounts Detection](https://github.com/garagepoort/StaffPlusPlus/wiki/Alt-Accounts-Detection)
 * [Authentication](https://github.com/garagepoort/StaffPlusPlus/wiki/Authentication)
+* [Banning](https://github.com/garagepoort/StaffPlusPlus/wiki/Banning)
 * [Broadcasting](https://github.com/garagepoort/StaffPlusPlus/wiki/Broadcasting)
 * [Protection](https://github.com/garagepoort/StaffPlusPlus/wiki/Protection)
 * [Reporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Reporting)
