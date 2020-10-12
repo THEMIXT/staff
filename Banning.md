@@ -44,3 +44,4 @@ Amount must be a positive number > 0 and unit must be one of the following:
 
 ## GUI
 Banned players can be listed and unbanned through the gui hub. 
+// TODO add screenshots
