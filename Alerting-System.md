@@ -24,6 +24,7 @@ alerts-module:
     # Block type that, when mined, will invoke an alert.
     blocks: SPAWNER, EMERALD_ORE, DIAMOND_ORE, GOLD_ORE, IRON_ORE, COAL_ORE, LAPIS_ORE, REDSTONE_ORE
 
+  # Notifies staff when a player is detected to use alt accounts.
   alt-detect-notify:
     enabled: true
     # Trust levels for which an alert should be triggered
