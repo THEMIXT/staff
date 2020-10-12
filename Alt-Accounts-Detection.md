@@ -38,7 +38,7 @@ We have four levels of trust:
 ## Listening to events
 Currently Staff++ supports 2 ways of being notified when an alt account is detected.
 - The alerting system (in-game)
-- Through Discord ()
+- Through Discord ([Integration plugin](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration))
 
 ## Whitelisting Accounts
 Since some accounts might actually not be real alt accounts but still trigger the system, a whitelist is added to ensure that staff members can ignore these false positives.
