@@ -49,6 +49,7 @@ The ignore a match you can use the `/altwhitelist` command.
 - `/altwhitelist list pagenumber` PageNumber is optional.
 
 This will add or remove certain user combinations from the whitelist. When added to the whitelist this users combination will never trigger a detection event.
+Adding a combination to the whitelist tells the system that these 2 accounts are not alts.
 
 
  
