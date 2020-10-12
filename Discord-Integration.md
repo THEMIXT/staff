@@ -31,13 +31,18 @@ StaffPlusPlusDiscord:
   # Trigger a discord message when a staff member resolves a report
   notifyResolve: true
 
-
   # Warnings section
   warnings:
     webhookUrl: ""
     notifyCleared: true
     notifyCreate: true
     notifyThresholdReached: true
+
+  # Bans section
+  bans:
+    webhookUrl: ""
+    ban: false
+    unban: false
 
   # Alt Accounts Detection section
   altDetect:
