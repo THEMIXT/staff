@@ -4,6 +4,6 @@ Staff++ overrides the default ban command with its own `ban` command. Next to th
 ## Configuration
 ```
 ban-module:
-  # Whether or not the plugin will use "/ban-player" features.
+  # Whether or not the plugin will use Staff++ "/ban" features.
   enabled: true
 ```
