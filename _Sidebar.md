@@ -8,6 +8,7 @@
 
 ### Features
 
+* [Alt Accounts Detection](https://github.com/garagepoort/StaffPlusPlus/wiki/Alt-Accounts-Detection)
 * [Authentication](https://github.com/garagepoort/StaffPlusPlus/wiki/Authentication)
 * [Broadcasting](https://github.com/garagepoort/StaffPlusPlus/wiki/Broadcasting)
 * [Discord Integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration)
