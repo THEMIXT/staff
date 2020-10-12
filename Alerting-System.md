@@ -1,5 +1,5 @@
 # Introduction
-Staff++ kept the same alerting system that was already present in the old Staff+ application.
+Staff++ kept the same alerting system that was already present in the old Staff+ plugin.
 Using this system staff members can subscribe to be notified when certain events happen.
 The notification is done through a message send in-game. If the staff member is not online he will miss the notification.
 
