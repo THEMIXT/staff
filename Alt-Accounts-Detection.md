@@ -33,7 +33,7 @@ We have four levels of trust:
 |POSITIVE|4|Only one case can trigger the POSITIVE level. When a username has an IP match and a username match of at least 70%. We can be fairly certain something is going on with these accounts|
 |FAIRLY_POSITIVE|3|Triggered when username match is between 50% and 70% and IP is matching. Or when username match is at least 70% and IP is not matching.|
 |POSSIBLE|2|Triggered when username match is between 30% and 50% and IP is matching. Or when username match is between 50% and 70%, and IP is not matching.|
-|NOT_LIKELY|2|Triggered when username match is between 30% and 50% and IP is not matching. Or when IP is matching but there is no username similarity. In general I would not recommend listening to alerts with this trustlevel as most likely this will not be a reliable result|
+|NOT_LIKELY|1|Triggered when username match is between 30% and 50% and IP is not matching. Or when IP is matching but there is no username similarity. In general I would not recommend listening to alerts with this trustlevel as most likely this will not be a reliable result|
 
 ## Listening to events
 Currently Staff++ supports 2 ways of being notified when an alt account is detected.
