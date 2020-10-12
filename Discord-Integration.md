@@ -18,11 +18,14 @@ The configuration of the discord integration plugin is fairly simple.
 
 ```
 StaffPlusPlusDiscord:
+
+  # == BEGIN Reporting section
+
   # The discord webhook url. This can be found in you discord server settings
   webhookUrl: ""
- # Trigger a discord message when some player opens a new report
+  # Trigger a discord message when some player opens a new report
   notifyOpen: true
- # Trigger a discord message when a staff member for some reason decides to not handle a report and he unassigns himself
+  # Trigger a discord message when a staff member for some reason decides to not handle a report and he unassigns himself
   notifyReopen: true
   # Trigger a discord message when a staff member assigns himself to an open report
   notifyAccept: true
@@ -31,20 +34,23 @@ StaffPlusPlusDiscord:
   # Trigger a discord message when a staff member resolves a report
   notifyResolve: true
 
-  # Warnings section
+  # == END Reporting section
+
+
+  # == Warnings section
   warnings:
     webhookUrl: ""
     notifyCleared: true
     notifyCreate: true
     notifyThresholdReached: true
 
-  # Bans section
+  # == Bans section
   bans:
     webhookUrl: ""
     ban: false
     unban: false
 
-  # Alt Accounts Detection section
+  # == Alt Accounts Detection section
   altDetect:
     webhookUrl: ""
 
