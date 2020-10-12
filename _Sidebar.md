@@ -8,6 +8,7 @@
 
 ### Features
 
+* [Alerting System](https://github.com/garagepoort/StaffPlusPlus/wiki/Alerting-System)
 * [Alt Accounts Detection](https://github.com/garagepoort/StaffPlusPlus/wiki/Alt-Accounts-Detection)
 * [Authentication](https://github.com/garagepoort/StaffPlusPlus/wiki/Authentication)
 * [Banning](https://github.com/garagepoort/StaffPlusPlus/wiki/Banning)
