@@ -38,6 +38,15 @@ StaffPlusPlusDiscord:
     notifyCleared: true
     notifyCreate: true
     notifyThresholdReached: true
+
+  # Alt Accounts Detection section
+  altDetect:
+    webhookUrl: ""
+
+    # Levels that should be notified to discord, leave empty to disable all notifications. Should be semi-colon separated
+    # possible values: POSITIVE, FAIRLY_POSITIVE, POSSIBLE, NOT_LIKELY
+    # example value: POSITIVE;FAIRLY_POSITIVE
+    enabledTrustLevels: ""
 ```
 
 Make sure you create a webhook on your discord server. This can be done by following this guide: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
