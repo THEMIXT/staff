@@ -16,6 +16,8 @@ ban-module:
 `/ban [player] [reason]`
 ```
 /ban playername He was bothering me
+
+
 ```
 
 ### Temporary banning
@@ -39,3 +41,6 @@ Amount must be a positive number > 0 and unit must be one of the following:
 ```
 /unban playername We are friends now
 ```
+
+## GUI
+Banned players can be listed and unbanned through the gui hub. 
