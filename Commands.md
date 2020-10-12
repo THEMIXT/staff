@@ -5,6 +5,9 @@
 |`/alerts`|Subscribe/Unsubscribe yourself to be notified when certain events happen in StaffPlusPlus. Currently following events are supported: XRAY, MENTION, NAME_CHANGE||`/alerts player1 NAME_CHANGE`|
 |`/altwhitelist [add\|remove] [playername1] [playername2]`|Add remove players from the alt account detection whitelist||`/altwhitelist add player1 player2` `/altwhitelist remove player1 player2`|
 |`/altwhitelist [list] [page?]`|List all whitelisted items from alt account detection whitelist.||`/altwhitelist list` `/altwhitelist list 3`|
+|`/ban [playername] [reason]`|Permanently ban a player||`/ban player1 I don't like him`|
+|`/tempban [playername] [amount] [unit] [reason]`|Temporary ban a player the given duration. See [banning](https://github.com/garagepoort/StaffPlusPlus/wiki/Banning) for more info||`/tempban player1 1 WEEK I don't like him`|
+|`/unban [playername] [reason]`|Unban a player from the server||`/unban player1 I like him again`|
 |`/broadcast [server] [message]`|Send a message to all players on all servers. Display's the message using a "broadcast" prefix.||`/broadcast ALL This is my message`|
 |`/chat`|Manage in game chat. Disable/Enable chat completely. Clear the chat history. Enable slow chat||`/chat clear` `/chat toggle` `/chat slow`|
 |`/clear [player]`|Clear the given player's inventory|`-T` `-H` `-D`|`/clear player1`|
