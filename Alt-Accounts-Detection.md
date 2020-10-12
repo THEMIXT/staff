@@ -34,3 +34,21 @@ We have four levels of trust:
 |FAIRLY_POSITIVE|3|Triggered when username match is between 50% and 70% and IP is matching. Or when username match is at least 70% and IP is not matching.|
 |POSSIBLE|2|Triggered when username match is between 30% and 50% and IP is matching. Or when username match is between 50% and 70%, and IP is not matching.|
 |NOT_LIKELY|2|Triggered when username match is between 30% and 50% and IP is not matching. Or when IP is matching but there is no username similarity. In general I would not recommend listening to alerts with this trustlevel as most likely this will not be a reliable result|
+
+## Listening to events
+Currently Staff++ supports 2 ways of being notified when an alt account is detected.
+- The alerting system (in-game)
+- Through Discord ()
+
+## Whitelisting Accounts
+Since some accounts might actually not be real alt accounts but still trigger the system, a whitelist is added to ensure that staff members can ignore these false positives.
+
+The ignore a match you can use the `/altwhitelist` command.
+- `/altwhitelist add playerName1 playerName2`
+- `/altwhitelist remove playerName1 playerName2`
+- `/altwhitelist list pagenumber` PageNumber is optional.
+
+This will add or remove certain user combinations from the whitelist. When added to the whitelist this users combination will never trigger a detection event.
+
+
+ 
