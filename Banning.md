@@ -45,3 +45,6 @@ Amount must be a positive number > 0 and unit must be one of the following:
 ## GUI
 Banned players can be listed and unbanned through the gui hub. 
 // TODO add screenshots
+
+## Integration
+The [discord integration](https://github.com/garagepoort/StaffPlusPlus/wiki/Discord-Integration) plugin supports notifying to a discord channel whenever a player gets banned/unbanned.
