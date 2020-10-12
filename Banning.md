@@ -23,6 +23,16 @@ ban-module:
 ```
 /tempban playername 15 MINUTE He was bothering me
 ```
+The duration of the tempban is specified by [amount] [unit]
+
+Amount must be a positive number > 0 and unit must be one of the following:
+- SECOND
+- MINUTE
+- HOUR
+- DAY
+- WEEK
+- MONTH
+- YEAR
 
 ### Unbanning
 `/unban [player] [reason]`
