@@ -15,7 +15,7 @@ I changed some of the core features:
 * Discord integration for reports & warning.
 
 Overall I am trying to fix a lot of the existing bugs and am cleaning up the code.
-Hopefully this plugin can be a good predecessor to ShortNinja's original plugin.
+Hopefully this plugin can be a good successor to ShortNinja's original plugin.
 
 ### If you are migrating from Staff+ please see this page: [Migration Guide](https://github.com/garagepoort/StaffPlusPlus/wiki/StaffPlus-Migration)
 
