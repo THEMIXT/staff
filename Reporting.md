@@ -27,6 +27,13 @@ reports-module:
 
   # Whether or not a staff member must provide a reason when resolving/rejecting a report
   closing-reason-enabled: true
+
+  reporter-notifications:
+      # The reporter will be notified the moment he comes online that he has reports OPEN or IN_PROGRESS
+      notify-on-join: true
+      # Enable status change notifications. Whenever a staff member changes the status to one of the specified statuses, the reporter will be notified (if he is online).
+      # Statuses must be semi-colon separated
+      status-change-notifications: IN_PROGRESS;RESOLVED;REJECTED
 ```
 
 ## Report commands
