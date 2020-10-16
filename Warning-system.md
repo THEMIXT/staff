@@ -72,12 +72,6 @@ warnings-module:
           run-strategy: DELAY
 ```
 
-Underneath the commands section add the following command:
-```
-warns: "warns"
-teleport: "teleport"
-```
-
 That's it, try starting up the server and see if everything runs as expected.
 
     Should you still encounter problems please do compare your configuration file with the example config file
