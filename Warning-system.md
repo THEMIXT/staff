@@ -120,3 +120,19 @@ Possible strategies:
 - `ONLINE` Run the command only if the player is online. Should the player be offline when the threshold is reached the configured command wont be executed.
 - `DELAY` If the player is online, run the command immediately. If the player is offline, delay the command until his next login.
 
+## Enable user notifications
+You can enable user notifications. This will notify the player that he has warnings.
+To do so change this part of the warnings-module inside the config file:
+```
+  # Enables the ability to notify a user when he has warnings
+  # User will be notified the moment he comes online.
+  user-notifications:
+      enabled: true
+      # Enable this to show the message every time the user comes online.
+      # If Disabled the warnings will be marked as "read" and he will only be notified of new warnings
+      always-notify: false
+```
+
+Whenever a user opens his warning gui all his warnings are marked as 'read'. If always notify is off, a user will only be notified if he has unread warnings.
+Keep in mind that to open the warnings gui the player has to have the following permission: `staff.warn.view-my-warnings`
+
