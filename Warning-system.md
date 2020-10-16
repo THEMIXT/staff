@@ -49,6 +49,14 @@ warnings-module:
   # Whether or not the player issued the warning will be visible in GUIs.
   show-issuer: true
 
+  # Enables the ability to notify a user when he has warnings
+  # User will be notified the moment he comes online.
+  user-notifications:
+      enabled: false
+      # Enable this to show the message every time the user comes online.
+      # If Disabled the warnings will be marked as "read" and he will only be notified of new warnings
+      always-notify: false
+
   severity-levels:
     - name: MINOR
       score: 1
