@@ -35,6 +35,7 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | random-teleport | staff.random-teleport | Permission for using the staff mode random teleport |
 | report | staff.report | Permission for clearing/getting player reports. |
 | report-bypass| staff.report.bypass | Permission to bypass getting reported |
+| report-deletion| staff.report.deletion | Permission to delete reports |
 | resetPass | staff.staffplus.resetpassword | Permission for using the /resetPassword command |
 | revive | staff.revive | Permission for giving a player's previous inventory back. |
 | staff-chat | staff.staffchat | Permission for using staff chat. |
@@ -45,6 +46,8 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | tickets | staff.tickets | Permission for managing tickets. |
 | vanish-list | staff.vanish.list | Permission for using  / v list . |
 | vanish-total | staff.vanish.total | Permission for using  / v total . |
+| view-my-reports | staff.warn.view-my-reports | Permission for opening the my reports gui. |
+| view-my-warnings | staff.warn.view-my-warnings | Permission for opening the my warnings gui. |
 | warn | staff.warn | Permission for using "/warn" and clearing/getting player warnings. |
 | warn-bypass | staff.warn.bypass | Permission to bypass getting warned. |
 | wild-card | staff.* | Use this to give a player all Staff+ permissions.  Take note that this will NOT give the player the "block" permission. This also gives the player permission to toggle other player's vanish, staff mode, and etc. |
