@@ -3,7 +3,7 @@ Staff++ overrides the default ban command with its own `ban` command. Next to th
 With every ban a reason must be given why this player is getting banned.
 
 ## Configuration
-```
+```yaml
 ban-module:
   # Whether or not the plugin will use Staff++ "/ban" features.
   enabled: true
@@ -52,7 +52,7 @@ Configure your server aliases in such a way that the ban commands from Staff++ w
 This can be done by editing the `commands.yml` file and specifying your aliases there.
 
 To enable Staff++ ban commands this would be done in this way:
-```
+```yaml
 aliases:
     ban:
     - "staffplus:ban $1-"

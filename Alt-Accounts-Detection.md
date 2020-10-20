@@ -4,7 +4,7 @@ The detection is really simple so don't expect miracles. It will detect the most
 Alt detection is disabled by default
 
 ## Configuration
-```
+```yaml
 alt-detect-module:
   enabled: true
 ```

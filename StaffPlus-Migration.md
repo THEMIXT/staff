@@ -9,7 +9,7 @@
 
 - In the config file change storage type from `flatfile` to 'sqlite' or `mysql`:
 
-```
+```yaml
 storage:
   #Type is how it will store either a sqlite or mysql
   type: 'sqlite'

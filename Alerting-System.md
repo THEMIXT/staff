@@ -5,7 +5,7 @@ The notification is done through a message send in-game. If the staff member is 
 
 ## Configuration
 
-```
+```yaml
 alerts-module:
   # Whether or not staff will be notified when a user changes their name.
   name-notify: true
@@ -40,7 +40,7 @@ A staff member can subscribe to or unsubscribe from these events manually using 
 
 Keep in mind a staff member can only receive an alert if he has the correct permission.
 
-```
+```yaml
   # Permission for managing the alerts you will get
   alerts: "staff.staffplus.alerts"
   # Permission for receiving mention alerts.

@@ -7,7 +7,7 @@ The teleport command can also be used as an argument `-T` to enhance other comma
 
 Make sure the following section is present in your configuration file:
 
-```
+```yaml
 ############################################################
 # +------------------------------------------------------+ #
 # |                       Locations                        | #
@@ -25,9 +25,29 @@ locations:
 
 You can define multiple locations underneath the `locations` section.
 Example:
-```
+```yaml
 locations:
      spawn: 14;45;62
      jail: 58,789,70
 ```
 
+## Commands:
+
+##### Teleport a player to a location:
+
+```
+/teleport thatplayer spawn
+```
+
+##### Teleport yourself to a player:
+
+```
+/teleportToPlayer thatplayer
+```
+
+##### Teleport a player back to his original location:
+This only works if the player has been teleported at least ones before.
+Previous locations are lost when the server restarts.
+```
+/teleportBack thatplayer
+```

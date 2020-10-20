@@ -6,7 +6,7 @@ However this a one way synchronization, if you change the cards created by Staff
 Install the Staff++ Trello Integration plugin: https://www.spigotmc.org/resources/staff-trello-integration.84552/
 
 ## Configuration
-```
+```yaml
 StaffPlusPlusTrello:
     reports:
         # Your api key

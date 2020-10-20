@@ -16,7 +16,7 @@ AuthMe can be configured to have optional registration. Players can choose if th
 
 # Configuration
 Inside the configuration file make sure the following section is present:
-```
+```yaml
 # Chooses the authentication provider. Default "noop", no authentication will be done.
 # AuthMe is supported. When the provider is authMe, Staff++ will enforce that the user is authenticated through AuthMe before being able to execute the commands.
 authentication:

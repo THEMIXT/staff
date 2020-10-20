@@ -8,7 +8,7 @@ We now support reporting online and offline players. Reporting events can be tri
 The configuration is pretty self-explanatory.
 Make sure you have this section inside your configuration file and enable the reporting module by setting `enabled` to `true`
 
-```
+```yaml
 # No permission required for regular users, requires "permissions.report" permission for moderator commands.
 reports-module:
   # Whether or not the plugin will use "/report" features.

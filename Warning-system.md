@@ -12,7 +12,7 @@ Remove the following properties from the `warnings-module`:
 The old system is no longer supported so the above properties can be removed.
 
 Underneath the warning module add the following:
-```
+```yaml
 severity-levels:
   - name: MINOR
     score: 1
@@ -32,7 +32,7 @@ The above is the default setup and you can change it as you'd like.
 
 In the end the warning module should look like this:
 
-```
+```yaml
 # Requires "permissions.warn" permission.
 warnings-module:
   # Whether or not the plugin will use "/warn" features.
@@ -82,7 +82,7 @@ That's it, try starting up the server and see if everything runs as expected.
 In the configuration file we defined severity levels. These can be as many as you want but it's preferably to have at least one.
 We define a `name` and `score`. The score determines how serious an offence the player has committed. An example configuration could be:
 
-```
+```yaml
 severity-levels:
   - name: STEALING
     score: 1
@@ -95,7 +95,7 @@ As you can see in the above config, griefing is a more serious offence than stea
 Once the levels are defined we can define thresholds.
 
 Thresholds can be reached by players if they receive too many warnings. An example configuration:
-```
+```yaml
 thresholds:
   - score: 3
     actions:
@@ -123,7 +123,7 @@ Possible strategies:
 ## Enable user notifications
 You can enable user notifications. This will notify the player that he has warnings.
 To do so change this part of the warnings-module inside the config file:
-```
+```yaml
   # Enables the ability to notify a user when he has warnings
   # User will be notified the moment he comes online.
   user-notifications:

@@ -16,7 +16,7 @@ Supported Staff++ version:
 ## Configuration
 The configuration of the discord integration plugin is fairly simple.
 
-```
+```yaml
 StaffPlusPlusDiscord:
 
   # == BEGIN Reporting section

@@ -5,7 +5,7 @@ If you are in a bungee network the message will be send to all servers or only t
 ## Configuration
 Make sure the following section is present in your config file:
 
-```
+```yaml
 ############################################################
 # +------------------------------------------------------+ #
 # |                      Broadcast                       | #

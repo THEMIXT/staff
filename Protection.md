@@ -5,7 +5,7 @@ The protection system allows a Staff Member to protect a player or protect an en
 ## Configuration
 Inside the config file make sure this section is added:
 
-```
+```yaml
 ############################################################
 # +------------------------------------------------------+ #
 # |                      Protection                      | #
