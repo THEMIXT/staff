@@ -26,3 +26,18 @@ These are the modules:
 | alt-detect-module | Enable an alt account detection system. | false |
 | alerts-module | Enable an alerting system. This can notify staff members in-game when certain events transpire. | true |
 | trace-module | Enable Staff members to start a trace on a player. This records actions the specified player is executing | true |
+
+## Database configuration
+We support 2 types of database `sqlite` and `mysql`. By default `sqlite` is configured.
+If you want to use mysql database configuration change this part of the config file:
+
+```yaml
+storage:
+  type: 'mysql'
+  mysql:
+    host: 'localhost'
+    user: 'root'
+    database: 'root'
+    password: 'mypass'
+    port: 3306
+```
