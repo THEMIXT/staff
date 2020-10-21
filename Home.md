@@ -19,9 +19,6 @@ Hopefully this plugin can be a good successor to ShortNinja's original plugin.
 
 ### If you are migrating from Staff+ please see this page: [Migration Guide](https://github.com/garagepoort/StaffPlusPlus/wiki/StaffPlus-Migration)
 
-## Configuration
+## Quick Start
 
-An example of the config file is always present in the repository.
-https://github.com/garagepoort/StaffPlusPlus/blob/master/StaffPlusCore/src/main/resources/config.yml
-
-_**Every time you update Staff++, you should check the default config file and compare it to your config file.**_
+A small guide to setup Staff++ is provided [here](https://github.com/garagepoort/StaffPlusPlus/wiki/Quick-start).
