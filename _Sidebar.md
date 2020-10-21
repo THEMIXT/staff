@@ -1,7 +1,7 @@
 ### [Home](https://github.com/garagepoort/StaffPlusPlus/wiki/Home)
 
 ### General
-
+* [Quick Start](https://github.com/garagepoort/StaffPlusPlus/wiki/Quick-start)
 * [Commands](https://github.com/garagepoort/StaffPlusPlus/wiki/Commands)
 * [Permissions](https://github.com/garagepoort/StaffPlusPlus/wiki/Permissions)
 * [StaffPlus Migration Guide](https://github.com/garagepoort/StaffPlusPlus/wiki/StaffPlus-Migration)
