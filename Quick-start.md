@@ -41,3 +41,12 @@ storage:
     password: 'mypass'
     port: 3306
 ```
+
+## Adding players as Staff Members
+There is not one command to add players as Staff members. Everything in Staff++ is permission based, if you have the correct permissions you can access the Staff++ commands. If you are OP you can access all commands by default.
+
+All permissions are listed [here](https://github.com/garagepoort/StaffPlusPlus/wiki/Permissions).
+This means you need some permission plugin to enable staff mode for your staff members. A commonly used permissions plugins is [luckperms](https://www.spigotmc.org/resources/luckperms.28140/).
+
+Once you have installed the permission plugin you can assign your player the correct permissions.
+All permissions in Staff++ start with a 'staff.' prefix. luckperms supports wildcards so you could give your player the permission `staff.*` and it will enable all Staff++ permissions for that player.
