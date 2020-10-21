@@ -15,17 +15,17 @@ These are the modules:
 
 | module| Description | Enabled by default |
 |---|---|---|
-| reports-module| Allow players to create reports. Staff members can pickup and resolve the reports. | true |
-| warns-module| Allow Staff members to warn players. | true |
-| staff-chat-module | Enable staffchat | true |
-| vanish-module | Allow staffmembers to vanish | true |
-| chat-module | Enable StaffMembers to slow or clear chat. Allow blacklisting certain words | true |
-| broadcast-module | Enable StaffMembers broadcast messages. | true |
-| ban-module | Enable StaffMembers to /ban or /tempban players. | true |
-| protect-module | Enable StaffMembers to protect players or areas from damage. | true |
-| alt-detect-module | Enable an alt account detection system. | false |
 | alerts-module | Enable an alerting system. This can notify staff members in-game when certain events transpire. | true |
+| alt-detect-module | Enable an alt account detection system. | false |
+| ban-module | Enable StaffMembers to /ban or /tempban players. | true |
+| broadcast-module | Enable StaffMembers broadcast messages. | true |
+| chat-module | Enable StaffMembers to slow or clear chat. Allow blacklisting certain words | true |
+| protect-module | Enable StaffMembers to protect players or areas from damage. | true |
+| reports-module| Allow players to create reports. Staff members can pickup and resolve the reports. | true |
+| staff-chat-module | Enable staffchat | true |
 | trace-module | Enable Staff members to start a trace on a player. This records actions the specified player is executing | true |
+| vanish-module | Allow staffmembers to vanish | true |
+| warns-module| Allow Staff members to warn players. | true |
 
 ## Database configuration
 We support 2 types of database `sqlite` and `mysql`. By default `sqlite` is configured.
