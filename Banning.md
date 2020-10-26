@@ -44,7 +44,7 @@ Amount must be a positive number > 0 and unit must be one of the following:
 /unban playername We are friends now
 ```
 
-## Another plugin is overriding the `/ban`, `/tempban`
+## Another plugin is overriding the `/ban`, `/tempban`, `/unban`
 It is possible that another plugin like 'essentialsx' might get priority over the `ban` and `tempban` command.
 To prevent this we suggest the same solution as is proposed by [EssentialsX](https://github.com/EssentialsX/Essentials/wiki/Common-Issues#essentialsx-overrides-a-command-from-spigot-or-another-plugin). 
 
