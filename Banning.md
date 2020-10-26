@@ -58,6 +58,8 @@ aliases:
     - "staffplus:ban $1-"
     tempban:
     - "staffplus:tempban $1-"
+    unban:
+    - "staffplus:unban $1-"
 ```
 More info on the [bukkit wiki](https://bukkit.gamepedia.com/Commands.yml#aliases)
 
