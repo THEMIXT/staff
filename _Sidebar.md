@@ -15,7 +15,7 @@
 * [Broadcasting](https://github.com/garagepoort/StaffPlusPlus/wiki/Broadcasting)
 * [Protection](https://github.com/garagepoort/StaffPlusPlus/wiki/Protection)
 * [Reporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Reporting)
-* [Teleport location](https://github.com/garagepoort/StaffPlusPlus/wiki/Teleport-location)
+* [Teleporting](https://github.com/garagepoort/StaffPlusPlus/wiki/Teleport-location)
 * [Warnings](https://github.com/garagepoort/StaffPlusPlus/wiki/Warning-system)
 
 ### Integrations
