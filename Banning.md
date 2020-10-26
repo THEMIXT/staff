@@ -44,6 +44,16 @@ Amount must be a positive number > 0 and unit must be one of the following:
 /unban playername We are friends now
 ```
 
+## Showing ban reason on ban/rejoin
+If you want banned players can see the reason why they are banned you can edit the kick message in the lang files:
+
+```yaml
+ban-tempbanned-kick: "[Banned] You have been temporarily banned from this server. Ban ends in: %duration%"
+ban-permabanned-kick: "[Banned] You have been permanently banned from this server"
+```
+
+You can use the placeholder `%reason%` to add a reason to the kick message.
+
 ## Another plugin is overriding the `/ban`, `/tempban`, `/unban`
 It is possible that another plugin like 'essentialsx' might get priority over the `ban`, `tempban` and `unban` command.
 To prevent this we suggest the same solution as is proposed by [EssentialsX](https://github.com/EssentialsX/Essentials/wiki/Common-Issues#essentialsx-overrides-a-command-from-spigot-or-another-plugin). 

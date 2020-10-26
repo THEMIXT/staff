@@ -16,6 +16,7 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | chat-toggle | staff.chat.toggle | Permission for using  / chat toggle . |
 | compass | staff.compass | Permission for using the staff mode compass |
 | counter | staff.counter | Permission for the staff mode counter GUI |
+| counter-show-vanished | staff.counter-show-vanished | Permission to show if staff members are vanished in the counter GUI |
 | cps | staff.cps | Permission for initializing clicks per second tests |
 | examine | staff.examine | Permission for using examine |
 | examine-modify | staff.examine.modify | Permission for editing inventories with examine. |

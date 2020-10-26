@@ -1,7 +1,6 @@
 # Introduction
 
-We introduced the new `/teleport [player] [location]` command. This allows you to teleport any player to any predefined location.
-The teleport command can also be used as an argument `-T` to enhance other commands.
+We introduced new teleport commands. These very basic commands can be used to teleport yourself or other players.
 
 ## Configuration 
 
@@ -35,14 +34,22 @@ locations:
 
 ##### Teleport a player to a location:
 
+The `teleportToLocation` command can also be used as an argument `-T` to enhance other commands.
+
 ```
-/teleport thatplayer spawn
+/teleportToLocation thatplayer spawn
 ```
 
 ##### Teleport yourself to a player:
 
 ```
 /teleportToPlayer thatplayer
+```
+
+##### Teleport a player to your location:
+
+```
+/teleportHere thatplayer
 ```
 
 ##### Teleport a player back to his original location:

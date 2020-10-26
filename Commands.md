@@ -27,9 +27,10 @@
 |`/sc [message?]`|Enables/disables staffchat. All messages send in staff chat mode will only be readable by other staff members||`/sc`|
 |`/staff`|Turns on/off Staff mode for the current user. Only available if the user has the correct permissions.||`/staff`|
 |`/strip [player]`|Takes off the player's armor and places it in his inventory. If there are no free spaces left in the player's inventory the armor is not taken off.||`/strip player1`|
-|`/teleport [player] [location]`|Teleports a player to a given location. Location should be configured inside the configuration file|`-D`|`/teleport player1 spawn`|
+|`/teleportHere [player]`|Teleports a player to your location|`-S` `-H`|`/teleportHere player1`|
+|`/teleportToLocation [player] [location]`|Teleports a player to a given location. Location should be configured inside the configuration file|`-D` `-S` `-H`|`/teleport player1 spawn`|
 |`/teleportToPlayer [player]`|Teleport yourself to the given player's location||`/teleportToPlayer player1`|
-|`/teleportBack [player]`|Teleport the given player back to his original location. This only works if that players has been teleported before.||`/teleportBack player1`|
+|`/teleportBack [player]`|Teleport the given player back to his original location. This only works if that players has been teleported before.|`-S` `-H`|`/teleportBack player1`|
 |`/vanish`|Toggle vanish on/off||`/vanish`|
 |`/warn [severity] [player] [reason]`|Command to give a player a warning. Severity should be configured inside the configuration file and provided as first argument to the warn command||`/warn MAJOR player1 For some reason`|
 |`/warns [get\|clear] [player]`|Command to manage warnings. You can list current warnings or remove all player warnings||`/warns clear player1` `/warns get player1`|
