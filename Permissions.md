@@ -41,8 +41,10 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | staff-chat | staff.staffchat | Permission for using staff chat. |
 | staffplus | staff.staffplus | Permission for using `/staffplus` |
 | strip | staff.strip | Permission for using  `/strip` . |
-| teleport | staff.teleport | Permission for using teleport. |
-| teleport-bypass | staff.teleport.bypass | Permission for bypassing teleport. |
+| teleport-to-location| staff.teleport-to-location | Permission for teleporting a player to predefined locations. |
+| teleport-to-player| staff.teleport-to-player | Permission for teleporting to a specific player. |
+| teleport-bypass | staff.teleport-bypass | Permission for bypassing teleport. |
+| teleport-here | staff.teleport-here | Permission for teleporting players to your location. |
 | tickets | staff.tickets | Permission for managing tickets. |
 | vanish-list | staff.vanish.list | Permission for using  / v list . |
 | vanish-total | staff.vanish.total | Permission for using  / v total . |
