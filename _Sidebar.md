@@ -5,6 +5,7 @@
 * [Commands](https://github.com/garagepoort/StaffPlusPlus/wiki/Commands)
 * [Permissions](https://github.com/garagepoort/StaffPlusPlus/wiki/Permissions)
 * [StaffPlus Migration Guide](https://github.com/garagepoort/StaffPlusPlus/wiki/StaffPlus-Migration)
+* [Reload configuration](https://github.com/garagepoort/StaffPlusPlus/wiki/Reload-Configuration)
 
 ### Features
 
