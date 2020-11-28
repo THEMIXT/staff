@@ -49,7 +49,7 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | tickets | staff.tickets | Permission for managing tickets. |
 | vanish-list | staff.vanish.list | Permission for using  / v list . |
 | vanish-total | staff.vanish.total | Permission for using  / v total . |
-| view-my-reports | staff.warn.view-my-reports | Permission for opening the my reports gui. |
+| view-my-reports | staff.report.view-my-reports | Permission for opening the my reports gui. |
 | view-my-warnings | staff.warn.view-my-warnings | Permission for opening the my warnings gui. |
 | warn | staff.warn | Permission for using "/warn" and clearing/getting player warnings. |
 | warn-bypass | staff.warn.bypass | Permission to bypass getting warned. |
