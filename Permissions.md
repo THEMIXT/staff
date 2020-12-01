@@ -37,6 +37,7 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | report | staff.report | Permission for clearing/getting player reports. |
 | report-bypass| staff.report.bypass | Permission to bypass getting reported |
 | report-deletion| staff.report.deletion | Permission to delete reports |
+| report-update-notifications| staff.report.update.notifications| Permission to get notified whenever a report gets updated |
 | resetPass | staff.staffplus.resetpassword | Permission for using the /resetPassword command |
 | revive | staff.revive | Permission for giving a player's previous inventory back. |
 | staff-chat | staff.staffchat | Permission for using staff chat. |
