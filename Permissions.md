@@ -8,6 +8,8 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | alerts-alt-detect | staff.alerts.alt-detects | Permission for receiving alt detect alerts. |
 | alt-detect-bypass | staff.staffplus.alt-detect-bypass | Permission for allowing players to bypass being detect by alt account detection |
 | alt-detect-whitelist | staff.staffplus.alt-detect-whitelist | Permission to add/remove players from the alt detection whitelist |
+| banning/tempbanning| staff.staffplus.ban | Permission for banning or temporarily banning a player |
+| ban-bypass| staff.staffplus.ban-bypass | Permission for bypassing being banned |
 | blacklist | staff.blacklist | Permission for bypassing the word blacklist. |
 | block | staff.block | Permission for blocking listed commands at "blocked-commands" and "blocked-mode-commands". |
 | broadcast | staff.staffplus.broadcast | Permission for sending broadcast messages |
