@@ -38,9 +38,30 @@ reports-module:
 
 ## Report commands
 
-* `/reports` Used to manage reports. You can list or clear all the reports of a player
+#### players
 * `/reportplayer [playerName] [message]` Report a specific player.
 * `/report [message]` Report something but don't link a specific player to it.
+* `/my-reports` Open the GUI to show the reports you created.
+
+#### staff members
+* `/reports` Used to manage reports. You can list or clear all the reports of a player
+* `/manage-reports` Open the manage reports GUI.
+
+## Report permission
+
+#### Player permissions
+Following permissions are used to allow players creating reports
+* `staff.report` Permission to create a report
+* `staff.report.view-my-reports` Permission to open the my-reports GUI
+
+#### Staff permissions
+* `staff.reports.manage.view` Permission to view all reports. If a staff member does not have this perm, he won't be able to manage reports
+* `staff.reports.manage.delete` Permission to permanently delete reports
+* `staff.reports.manage.accept` Permission to accept reports
+* `staff.reports.manage.resolve` Permission to resolve reports
+* `staff.reports.manage.close` Permission to close reports
+* `staff.reports.manage.reject` Permission to reject reports
+* `staff.report.update.notifications` Permission for receiving notifications when a report is accepted/deleted/closed
 
 ## Report lifecycle
 

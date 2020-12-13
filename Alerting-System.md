@@ -59,3 +59,42 @@ Keep in mind a staff member can only receive an alert if he has the correct perm
 /alerts ALT_DETECT
 ```
 
+
+## X-Ray
+The xray alerts can be configured to run after a specific treshold has been reached.
+
+```yaml
+xray-alerts:
+    # Whether or not this module is enabled.
+    enabled: true
+
+    # Block type that, when mined, will invoke an alert.
+    blocks: SPAWNER, EMERALD_ORE:10, DIAMOND_ORE:10:1m, GOLD_ORE, IRON_ORE, COAL_ORE, LAPIS_ORE, REDSTONE_ORE
+```
+
+Blocks can be configured in three different ways.
+
+#### Trigger every time \[blocktype\]
+Example: `SPAWNER`
+The above configuration will trigger an alert every time a player mines a spawner.
+
+#### Trigger after amount \[blocktype:amount\]
+Example: `EMERALD_ORE:10`
+Above configuration will trigger an alert every time a player mines a total of 10 emeralds.
+
+#### Trigger after amount/time \[blocktype:amount:time\]
+Example: `DIAMOND_ORE:10:1m`
+Above configuration will trigger an alert whenever a player mines 10 diamond block withing the time span of 1 minute.
+
+**Possible time values:**
+
+- s = second
+- m = minute
+- h = hour
+- d = day
+- w = week
+- M = month
+- y = year
+
+*Time values cannot be combined. For example this is invalid: "1m30s" instead type "90s"*
+

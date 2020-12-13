@@ -38,8 +38,12 @@ _All permission nodeS can be custom configured inside the config.yml file_
 | random-teleport | staff.random-teleport | Permission for using the staff mode random teleport |
 | report | staff.report | Permission for clearing/getting player reports. |
 | report-bypass| staff.report.bypass | Permission to bypass getting reported |
-| report-deletion| staff.report.deletion | Permission to delete reports |
 | report-update-notifications| staff.report.update.notifications| Permission to get notified whenever a report gets updated |
+| reports.manage.view| staff.reports.manage.view | Permission to view all reports |
+| reports.manage.delete| staff.reports.manage.delete | Permission to delete reports |
+| reports.manage.accept| staff.reports.manage.accept | Permission to accept reports |
+| reports.manage.resolve| staff.reports.manage.resolve | Permission to resolve reports |
+| reports.manage.reject| staff.reports.manage.reject | Permission to reject reports |
 | resetPass | staff.staffplus.resetpassword | Permission for using the /resetPassword command |
 | revive | staff.revive | Permission for giving a player's previous inventory back. |
 | staff-chat | staff.staffchat | Permission for using staff chat. |
