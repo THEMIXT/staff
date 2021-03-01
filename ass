@@ -1,0 +1,52 @@
+StaffPlusPlusDiscord:
+
+  # == BEGIN Reporting section
+
+  # The discord webhook url. This can be found in you discord server settings
+  webhookUrl: ""
+  # Trigger a discord message when some player opens a new report
+  notifyOpen: true
+  # Trigger a discord message when a staff member for some reason decides to not handle a report and he unassigns himself
+  notifyReopen: true
+  # Trigger a discord message when a staff member assigns himself to an open report
+  notifyAccept: true
+  # Trigger a discord message when a staff member rejects a report
+  notifyReject: true
+  # Trigger a discord message when a staff member resolves a report
+  notifyResolve: true
+
+  # == END Reporting section
+
+
+  # == Warnings section
+  warnings:
+    webhookUrl: ""
+    notifyCleared: true
+    notifyCreate: true
+    notifyThresholdReached: true
+
+  # == Bans section
+  bans:
+    webhookUrl: ""
+    ban: false
+    unban: false
+
+  # == Kicks section
+  kicks:
+    webhookUrl: ""
+    kick: false
+  
+  # == Mutes section  
+  mutes:
+    webhookUrl: ""
+    mute: false
+    unmute: false
+    
+  # == Alt Accounts Detection section
+  altDetect:
+    webhookUrl: ""
+
+    # Levels that should be notified to discord, leave empty to disable all notifications. Should be semi-colon separated
+    # possible values: POSITIVE, FAIRLY_POSITIVE, POSSIBLE, NOT_LIKELY
+    # example value: POSITIVE;FAIRLY_POSITIVE
+    enabledTrustLevels: ""
